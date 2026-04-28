@@ -1,0 +1,70 @@
+About the job
+The LA Clippers are looking to hire a Data Analyst Lead to drive data‑informed decisions across ticketing strategy across pricing, inventory management, and demand generation for our business. This role owns the analytics that power everyday decisions—from forecasting and performance reporting to optimization recommendations that increase conversion and yield. You will partner closely with Marketing, Sales and Finance stakeholders to translate data into clear actions and measurable outcomes.
+
+This is a full-time role based in Inglewood, CA in our new home at Intuit Dome. You will be eligible for our competitive benefit offering including medical, dental, vision, 401(k) plan with company contribution, Well-Being Allowance, and more.
+
+What You Will Do
+
+Own performance reporting: Build and maintain dashboards that track sales pace, conversion, inventory health, revenue, and customer behavior across channels and segments. 
+Forecast demand and revenue: Develop short‑ and long‑range forecasts at product and event levels; quantify scenarios to inform pricing, promotions, and inventory release strategies. 
+Optimize pricing and promotions: Analyze demand signals and customer segments to recommend price moves, discounts, bundles, and holds; measure lift and ROI post‑implementation. 
+Improve funnel and channel efficiency: Diagnose friction points across web and app; provide recommendations to improve checkout conversion and reduce abandonment. 
+Partner across teams: Translate insights into action with Sales, Marketing, Finance, and Operations; present clear narratives and recommendations to leadership. 
+Champion data quality: Define and document core KPIs and data definitions; write checks/QA routines to ensure accuracy and consistency across reports and models. 
+Run test‑and‑learn programs: Design A/B and multivariate tests for pricing and promotion strategies; analyze results and scale winning approaches. 
+
+
+Your Background, Skills And Qualifications
+
+5–7+ years of analytics experience with a focus on pricing, revenue optimization, or ecommerce/ticketing analytics. 
+Advanced SQL and BI/dashboarding skills (Power BI, Tableau, or similar), with proven ability to model data and tell a clear story with visuals. 
+Hands‑on ML experience (regression/forecasting, clustering/segmentation, propensity/uplift); able to translate model results into pricing and demand actions a business partner can use 
+Strong business partnering ability - skilled at working with Sales/Marketing/Finance and influencing decisions through data. 
+Exceptional written and verbal communication; concise, executive‑ready presentations. 
+Traits we value in all teammates: ownership from origin through execution; learning agility; ability to thrive in a dynamic environment; effective interpersonal skills. 
+Experience with pricing strategy and elasticity analysis in a high‑SKU or high‑velocity environment. 
+Hands‑on familiarity with experimentation platforms (A/B testing) and uplift/propensity modeling. 
+Working knowledge of Python or R for ad‑hoc analysis and forecasting. 
+
+
+LA Clippers’ Approach to Technology & Innovation
+
+At the LA Clippers, curiosity and innovation go hand in hand. We seek forward-thinking individuals who embrace emerging technologies and actively leverage AI tools to work smarter, unlock creativity, and elevate the fan and business experience.
+
+About Intuit Dome:
+
+Intuit Dome is the new home of the LA Clippers located in Inglewood, California. Intuit Dome is built different -- it redefines fans’ expectations for live experiences and changes the music landscape in Los Angeles.
+
+Set to host the 2026 NBA All-Star game, Intuit Dome is over 1 million square feet and features our team training center, business operations offices, five full-sized basketball courts, an 80,000 square foot outdoor plaza and a double-sided Halo Board composed of more than an acre of LED.
+
+Compensation
+
+The range for this position is $115,000 - $135,000 annual compensation. Compensation package offered will be based on multiple individualized factors, including a candidate's job-related knowledge, skills, and experience. 
+The role is classified as exempt. 
+Unfortunately at this time, this position does not offer visa sponsorship. Candidates must be authorized to work in the US without sponsorship. 
+
+
+Benefits And Perks
+
+We offer a competitive benefits program, including:
+
+Medical, Dental and Vision plans
+401(k) plan with company contribution
+Wellbeing Allowance of up to $1,000 per year
+Paid vacation and sick time
+Paid parental leave
+Flexible Spending Accounts (Medical and Dependent Care)
+Company-paid Long Term Disability insurance
+Company-paid Life and AD&D Insurance
+Voluntary Life Insurance options for employee, spouse and children
+Employee Assistance Program
+Mind health support via Modern Health and Headspace
+
+
+The LA Clippers are a proud equal opportunity employer. It is our desire and intent that all employees enjoy a professional business working environment that is free from discrimination and harassment. We will ensure that individuals with disabilities are provided reasonable accommodation to participate in the job application or interview process, to perform essential job functions, and to receive other benefits and privileges of employment.
+
+Qualified applications with arrest or conviction records will be considered for employment in accordance with the Los Angeles County Fair Chance Ordinance for Employers and the California Fair Chance Act.
+
+To view our employment privacy policy, please visit https://www.nba.com/clippers/california-employment-privacy-policy
+
+Halo Sports & Entertainment uses E-Verify to confirm the identity and employment eligibility of all new hires.
