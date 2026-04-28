@@ -1,0 +1,120 @@
+MARCELA LOZANO
+Los Angeles, CA
+marcelalozano27@gmail.com
+linkedin.com/in/marcelalozano
+
+EDUCATION
+Loyola Marymount University
+M.S. Business Analytics, Expected Aug 2026
+GPA: 4.0
+
+University of Texas at Austin
+Certification: Data Science and Data Management Systems
+Skills: SQL, Python, Tableau, Google Cloud Platform
+
+Loyola Marymount University
+B.A. Economics, Minor Spanish
+Magna Cum Laude, GPA: 3.89
+Valedictorian of Economics Major
+
+TECHNICAL SKILLS
+Python
+SQL
+Tableau
+Excel
+Pandas
+NumPy
+scikit-learn
+spaCy
+HuggingFace Transformers
+LangChain
+FAISS
+TF-IDF vectorization
+Sentence embeddings
+Topic modeling
+Natural Language Processing (NLP)
+ETL pipelines
+Data visualization
+Feature engineering
+Model evaluation (Precision, Recall, F1-score)
+Clustering
+Regression modeling
+Classification models
+A/B testing (conceptual)
+Experiment design (conceptual)
+
+ANALYTICS TOOLS
+Jupyter Notebook
+VS Code
+GitHub
+MySQL
+Tableau Prep
+Power BI
+Alteryx Cloud Designer
+Google Colab
+
+PROFESSIONAL EXPERIENCE
+
+AutoDive — Strategy & Analytics Consultant
+Feb 2025 – Present
+Developed commercialization strategy for aquaculture automation platform
+Built ETL pipelines to collect and structure aquaculture industry data
+Performed NLP-based sentiment analysis on industry forums
+Conducted customer segmentation analysis to identify adoption barriers
+Designed pilot deployment framework supporting scalable rollout
+Supported investor pitch strategy and cost-benefit narrative
+Contributed to IDEAcorps MBA Consulting Challenge winning project securing $20K funding
+
+Coleman Research (VisasQ) — Senior Client Management Associate
+Jan 2024 – Aug 2025
+Managed 25+ concurrent strategy and investment research engagements
+Delivered KPI-based insights supporting multi-million-dollar investment decisions
+Partnered with Fortune 100 strategy, consulting, and product teams
+Collaborated with internal AI product teams to improve workflow adoption from 18% to 95%
+Translated client business questions into structured analytical inputs for AI-assisted recommendations
+Analyzed industry trends across technology, finance, healthcare, and consumer sectors
+
+Coleman Research (VisasQ) — Client Management Associate
+May 2022 – Dec 2023
+Owned client relationships across strategy consulting and investment workflows
+Improved expert sourcing efficiency using structured request refinement
+Supported research delivery across corporate strategy and M&A use cases
+
+Centaurus Financial — Associate
+Sep 2020 – Sep 2021
+Supported financial planning analysis and long-term investment strategy development
+Coordinated compliance documentation and operational reporting workflows
+
+PROJECT EXPERIENCE
+
+Fake News Detection Model (Text Classification)
+Built classification pipeline using TF-IDF and Linear SVM
+Achieved F1 score of approximately 0.995
+Compared Logistic Regression, Multinomial Naive Bayes, and Linear SVM performance
+
+Disneyland Reviews Topic Modeling Analysis
+Performed topic modeling using LDA and NMF across three international park locations
+Extracted customer experience themes including ride satisfaction, staffing, crowding, and planning behavior
+Generated business recommendations for park-level operational improvements
+
+Twitter Named Entity Recognition Model
+Annotated social media dataset and trained custom spaCy NER model
+Improved entity recognition performance across PERSON, ORG, and LOC categories
+Evaluated pretrained vs custom models using precision, recall, and F1 metrics
+
+CRM Customer Segmentation Project
+Applied clustering techniques to identify customer segments
+Analyzed campaign targeting opportunities
+Generated strategy recommendations for marketing optimization
+
+DATA SKILLS
+
+Data cleaning and preprocessing
+Feature engineering
+Text analytics
+Vectorization (TF-IDF and embeddings)
+Machine learning model comparison
+Model evaluation and validation
+Dashboard design
+Business insight generation
+Stakeholder presentation of analytical findings
