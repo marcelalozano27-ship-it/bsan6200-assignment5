@@ -1,11 +1,3 @@
-About the job
-About Ephemeris Net
-
-We are extending the internet to space.
-
-Ephemeris Net is a pre-seed space networking company on a mission to provide connectivity for all space users through collaborative engineering of commercial space networking solutions. We are creating the infrastructure that will enable the space internet beyond bent pipe by laying the foundational networking layer that will define how data moves through space.
-
-We are supported by our technical incubator Second Order Effects, institutional VCs, and our network of space advisors. As space use scales and more space-native networks come online, we believe that now is the chance to build foundational infrastructure for how the internet will work in space.
 
 The role
 
@@ -72,45 +64,3 @@ While you will have direct interfaces with the CEO and technical team, you will 
 Before you start, we will meet to understand your strengths and growth goals and scope a project for you.
 You are expected to scope your project, execute, and present your results to the team at the end of the internship.
 
-What We Offer
-
-Compensation & Benefits
-
-Salary: $70,400 annual salary, prorated for length of internship
-Comprehensive health care coverage 
-
-Work Environment
-
-On-site, 3 days a week minimum: you will work alongside the team in the office. Government programs work requires close coordination and access to controlled information.
-Small team environment with direct access to founders and senior leaders
-Your work will be on real proposals and business development efforts, not a side project.
-
-The Opportunity
-
-Help build the business behind the technology: Your work on financial models, pitch materials, or commercial proposals will directly support how Ephemeris Net raises capital and wins customers.
-See how a space startup operates from the inside: You will get exposure to fundraising, commercial sales, government contracting, and strategic planning at a company going from inception to orbit.
-Build the space internet: Work on technology that will fundamentally change how space networks operate.
-
-Our Vision and Values
-
-Ephemeris Net's vision is to enable an open, space internet that anyone can utilize and access.
-
-We believe that access to better digital connectivity is essential for human progress and that space is the frontier of digital connectivity. We believe that collaboration within market competition is the most effective way to expand the internet into space. Using Ephemeris Net to build space network solutions is how we can proliferate digital connectivity, collaboration, and "the raising of all boats" while achieving a commercial impact.
-
-We Care Deeply About
-
-Access to connectivity for all 
-Collaboration that raises all boats; we focus on win/win deals 
-Commercial impact: building solutions people value and buy 
-Personal growth and creating a place where people build their careers 
-Putting good out into the world through the work we do and our interactions with each other 
-
-We are building a company people feel great about working at. We are seeking people who are open and actively seeking growth - both technical and personal. We value honesty, creativity, and a culture of ownership.
-
-About our locations
-
-El Segundo, CA: Located in the heart of the aerospace industry, surrounded by SpaceX, Aerospace Corporation, Northrop Grumman, and hundreds of space startups. A unique ecosystem where strangers on the street are excited about space.
-
-Oakland, CA: Right off BART. Close collaboration opportunities with UC Berkeley and the broader Bay Area networking and space research communities.
-
-Ephemeris Net is an equal opportunity employer. We celebrate diversity and are committed to creating an inclusive environment for all employees.
