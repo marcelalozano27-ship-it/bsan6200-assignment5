@@ -1,18 +1,18 @@
+Analytics/Data (Onsite: CA)
 
-Please note, UMG is not enrolled in E-Verify in California and New York, and cannot support employment of candidates whose employer must enroll in E-Verify, for example candidates on STEM-OPT.
+How You’ll CREATE:
 
-For more information, please click on the following links.
+CA: Universal Music Enterprises (UMe)
 
-E-Verify Participation Poster: English / Spanish
+The Analytics department at UMe is the data hub of catalog operations. Covering four primary verticals (Releases, Marketing, D2C & Commerce) Analytics provides a cross-functional team that impacts the entire catalog group.
 
-E-Verify Right to Work Poster: English | Spanish
+Predictive Dashboard for the Billboard Hot 100 
+Generate Global Market Share estimates not currently available from industry sources 
+Scrape Wiki Sources to improve artist birthdate datasets 
 
-Job Category:
+Ideal Candidates Will Have:
 
-Internships
-
-Salary Range:
-
-$18-$20 per hour
-
-The actual base salary offered depends on a variety of factors, which may include, as applicable, the qualifications of the individual applicant for the position, years of relevant experience, specific and unique skills, level of education attained, certifications or other professional licenses held, and the location in which the applicant lives and/or from which they will be performing the job. All candidates are encouraged to apply.
+SQL 
+Python 
+Experience with music datasets (through prior roles or school projects) 
+Passion for music 
