@@ -4,10 +4,10 @@ what you asked, what you used, what you modified. Show early-to-late progression
 AI Log
 
 Entry 1: 
-DATE:
-TOOL:
-Question asked:
-Modifications:
+DATE: 5-5-2026
+TOOL: ChatGPT
+Question asked: I have a GitHub folder with job descriptions that I need to load into my colab notebook using langchain. Give me a step by step instruction on how I can load the 12 job descriptions in the GitHub folder into my assignment. Use a loop for simplicity.
+Modifications: I used the loop given to me by Chat and edited the url to match my job description folder in GitHub.
 
 
 Entry 2: 
