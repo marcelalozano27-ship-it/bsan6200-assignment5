@@ -13,8 +13,11 @@ Modifications: I used the loop given to me by Chat and edited the url to match m
 Entry 2: 
 DATE:
 TOOL:
-Question asked:
-Modifications:
+Question asked:I get a widget error when I push my notebook to Github. Is there a way to get rid of the loading bars?
+Modifications:I learned that I can switch show_progress_bar=False to remove the loading bars that create an issue in Github. Even after this I was still seeing loading bars so I iterated with chat and included the following code to remove the progress bars.
+import logging
+logging.getLogger("sentence_transformers").setLevel(logging.ERROR)
+logging.getLogger("transformers").setLevel(logging.ERROR)
 
 
 Entry 3: 
