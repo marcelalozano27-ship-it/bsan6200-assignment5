@@ -10,7 +10,7 @@ GPA: 4.0
 
 University of Texas at Austin
 Certification: Data Science and Data Management Systems
-Skills: SQL, Python, Tableau, Google Cloud Platform
+Skills: SQL, Python, Tableau, Google Cloud Platform, Power BI, Microsoft Excel
 
 Loyola Marymount University
 B.A. Economics, Minor Spanish
