@@ -11,20 +11,35 @@ Modifications: I used the loop given to me by Chat and edited the url to match m
 
 
 Entry 2: 
-DATE:
-TOOL:
+DATE:5-5-2026
+TOOL: ChatGPT
 Question asked:I get a widget error when I push my notebook to Github. Is there a way to get rid of the loading bars?
 Modifications:I learned that I can switch show_progress_bar=False to remove the loading bars that create an issue in Github. Even after this I was still seeing loading bars so I iterated with chat and included the following code to remove the progress bars.
 import logging
 logging.getLogger("sentence_transformers").setLevel(logging.ERROR)
 logging.getLogger("transformers").setLevel(logging.ERROR)
-
+There was still one loading bar that I could not get rid of so I just cleared the output of that cell before putting into Github.
 
 Entry 3: 
-DATE:
-TOOL:
-Question asked:
-Modifications:
+DATE:5-6-2026
+TOOL:ChatGPT
+Question asked: "can you give me a blank template to use for the evaluation analysis of my 3 job descriptions. i want to be able to put the analysis i used (skill gap/keyword alignment/fit summary) as well as the position, i want to manually input correct vs partially correct vs wrong"
+Modifications: I used the blank markdown template and filled it in myself. I wanted to have a clear evaluation table for readability.
+This is the code I was given:
+
+## Evaluation Analysis
+
+| Position | Analysis Type | Retrieval Relevance (Yes / Partial / No) | Correct Findings | Partially Correct Findings | Incorrect / Hallucinated Findings | Actionability (1–5) | Faithfulness (Faithful / Partial / Hallucinated) | Notes |
+|---|---|---|---|---|---|---|---|---|
+|  |  |  |  |  |  |  |  |  |
+|  |  |  |  |  |  |  |  |  |
+|  |  |  |  |  |  |  |  |  |
+|  |  |  |  |  |  |  |  |  |
+|  |  |  |  |  |  |  |  |  |
+|  |  |  |  |  |  |  |  |  |
+|  |  |  |  |  |  |  |  |  |
+|  |  |  |  |  |  |  |  |  |
+|  |  |  |  |  |  |  |  |  |
 
 
 Entry 4: 
