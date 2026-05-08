@@ -98,16 +98,6 @@ with col_analysis:
             "Fit Summary"
         ]
     )
-# ---------------------------------------------------
-# Load selected JD
-# ---------------------------------------------------
-
-selected_row = metadata[metadata["title"] == selected_jd].iloc[0]
-
-jd_path = f"data/job_descriptions/{selected_row['filename']}"
-
-with open(jd_path, "r", encoding="utf-8") as f:
-    jd_text = f.read()
 
 # ---------------------------------------------------
 # Load resume
