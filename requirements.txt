@@ -2,10 +2,8 @@ streamlit
 openai
 python-dotenv
 pandas
-langchain
-langchain-openai
-langchain-community
-faiss-cpu
+numpy
+requests
+chromadb
 sentence-transformers
-pypdf
-tiktoken
+huggingface-hub
