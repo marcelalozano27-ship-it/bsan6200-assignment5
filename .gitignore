@@ -1,0 +1,17 @@
+# API keys and environment variables
+.env
+.env.*
+
+# Python cache files
+__pycache__/
+*.pyc
+
+# Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# Streamlit local config
+.streamlit/secrets.toml
+
+# OS files
+.DS_Store
+Thumbs.db
