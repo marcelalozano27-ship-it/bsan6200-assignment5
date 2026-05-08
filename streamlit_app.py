@@ -60,39 +60,44 @@ metadata = load_metadata()
 col_select, col_analysis = st.columns([1, 1])
 
 with col_select:
+
     st.subheader("1. Select a Job Description")
 
-    if not metadata.empty:
-        jd_options = {
-            f"{row['Company']} -- {row['title']}": row["filename"]
-            for _, row in metadata.iterrows()
-        }
-    else:
-        jd_options = {doc["source"]: doc["source"] for doc in docs}
+    jd_labels = [
+        f"{row.get('Company', row.get('company', 'Unknown Company'))} -- {row.get('title', row.get('Title', 'Unknown Title'))}"
+        for _, row in metadata.iterrows()
+    ]
 
-    selected_label = st.selectbox("Choose a JD:", list(jd_options.keys()))
-    selected_filename = jd_options[selected_label]
+    selected_label = st.selectbox(
+        "Choose a JD:",
+        jd_labels
+    )
 
-    # Find JD text
-    jd_text = ""
-    for doc in docs:
-        if doc["source"] == selected_filename:
-            jd_text = doc["text"]
-            break
+    # Match selected row
+    selected_row = metadata.iloc[jd_labels.index(selected_label)]
 
-    # Preview selected JD
+    # Load JD text
+    jd_path = f"data/job_descriptions/{selected_row['filename']}"
+
+    with open(jd_path, "r", encoding="utf-8") as f:
+        jd_text = f.read()
+
+    # Preview JD
     with st.expander("Preview Job Description"):
-        preview_text = jd_text[:1500] if jd_text else "No preview available."
-        st.text(preview_text)
+        st.text(jd_text[:1500] + ("..." if len(jd_text) > 1500 else ""))
 
 with col_analysis:
+
     st.subheader("2. Choose Analysis Type")
 
     analysis_type = st.radio(
         "Select analysis:",
-        list(ANALYSIS_TYPES.keys()),
+        [
+            "Skill Gap Analysis",
+            "Keyword Alignment",
+            "Fit Summary"
+        ]
     )
-
 # ---------------------------------------------------
 # Load selected JD
 # ---------------------------------------------------
