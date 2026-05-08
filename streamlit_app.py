@@ -57,21 +57,41 @@ metadata = load_metadata()
 # JD selector
 # ---------------------------------------------------
 
-st.title("AI Job Fit Analyzer")
+col_select, col_analysis = st.columns([1, 1])
 
-selected_jd = st.selectbox(
-    "Select a Job Description",
-    metadata["title"]
-)
+with col_select:
+    st.subheader("1. Select a Job Description")
 
-analysis_type = st.radio(
-    "Choose Analysis Type",
-    [
-        "Skill Gap Analysis",
-        "Keyword Alignment",
-        "Fit Summary"
-    ]
-)
+    if not metadata.empty:
+        jd_options = {
+            f"{row['company']} -- {row['title']}": row["filename"]
+            for _, row in metadata.iterrows()
+        }
+    else:
+        jd_options = {doc["source"]: doc["source"] for doc in jd_docs}
+
+    selected_label = st.selectbox("Choose a JD:", list(jd_options.keys()))
+    selected_filename = jd_options[selected_label]
+
+    # Find JD text
+    jd_text = ""
+    for doc in jd_docs:
+        if doc["source"] == selected_filename:
+            jd_text = doc["text"]
+            break
+
+    # Preview selected JD
+    with st.expander("Preview Job Description"):
+        preview_text = jd_text[:1500] if jd_text else "No preview available."
+        st.text(preview_text)
+
+with col_analysis:
+    st.subheader("2. Choose Analysis Type")
+
+    analysis_type = st.radio(
+        "Select analysis:",
+        list(ANALYSIS_TYPES.keys()),
+    )
 
 # ---------------------------------------------------
 # Load selected JD
