@@ -42,18 +42,18 @@ This is the code I was given:
 |  |  |  |  |  |  |  |  |  |
 
 
-Entry 4: 
-DATE:
-TOOL:
-Question asked:
-Modifications:
+Entry 4:  
+DATE: 5-2-2026
+TOOL: Chatgpt
+Question asked:Whenever I try to load the langchain package to my notebook but kept getting errors that the packages did not exist. 
+Modifications:I iterated with chat and found newer versions of the langchain package but still was having trouble getting it to load. Chat was confident that the packages would load but upon further research I realized I could just do my analysis without the outdated packages so I did not end up taking Chat's advice.
 
 
-Entry 5: 
-DATE:
-TOOL:
-Question asked:
-Modifications:
+Entry 5:  
+DATE: 5-7-2026
+TOOL: Chatgpt
+Question asked: I am trying to pull company name from an excel file that has multiple columns. It keeps returning my "Company" column as empty even though it is present in the excel.
+Modifications: I uploaded my excel file to chat and it identified that the error was coming from an inconsistency in the capitalization. I switched my code to "company": row.get("Company", ""). One thing I noticed is that Chat told me to change all instances to "Company" but I realized that I only need to change it for the first metadata call. For all other times I referenced "company" since I had already linked the company name with the correct capitalization. 
 
 
 Entry 6: 
