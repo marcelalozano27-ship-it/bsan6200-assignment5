@@ -18,7 +18,7 @@ https://jobfitanalysis.streamlit.app/
 bsan6200-assignment5/
 │
 ├── Colab Notebook/
-│   └── Assignment_5_OptionB_Job_Fit_Starter.ipynb
+│   └── rag_pipeline.ipynb
 │
 ├── data/
 │   ├── job_descriptions/
@@ -28,6 +28,7 @@ bsan6200-assignment5/
 ├── AI_Log/
 │
 ├── streamlit_app.py
+├── .gitignore
 ├── requirements.txt
 └── README.md
 ```
@@ -208,7 +209,7 @@ streamlit run streamlit_app.py
 The main notebook is located at:
 
 ```text
-Colab Notebook/Assignment_5_OptionB_Job_Fit_Starter.ipynb
+Colab Notebook/rag_pipeline.ipynb
 ```
 
 It can be opened in Google Colab or Jupyter Notebook.
