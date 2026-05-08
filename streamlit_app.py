@@ -68,14 +68,14 @@ with col_select:
             for _, row in metadata.iterrows()
         }
     else:
-        jd_options = {doc["source"]: doc["source"] for doc in jd_documents}
+        jd_options = {doc["source"]: doc["source"] for doc in docs}
 
     selected_label = st.selectbox("Choose a JD:", list(jd_options.keys()))
     selected_filename = jd_options[selected_label]
 
     # Find JD text
     jd_text = ""
-    for doc in jd_documents:
+    for doc in docs:
         if doc["source"] == selected_filename:
             jd_text = doc["text"]
             break
