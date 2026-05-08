@@ -64,7 +64,7 @@ with col_select:
 
     if not metadata.empty:
         jd_options = {
-            f"{row['company']} -- {row['title']}": row["filename"]
+            f"{row['Company']} -- {row['title']}": row["filename"]
             for _, row in metadata.iterrows()
         }
     else:
