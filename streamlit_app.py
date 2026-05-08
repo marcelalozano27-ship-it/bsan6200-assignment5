@@ -103,10 +103,17 @@ with col_analysis:
 # Load resume
 # ---------------------------------------------------
 
-resume_path = "data/resume/resume.txt"
+uploaded_resume = st.file_uploader(
+    "Upload a Resume",
+    type=["txt"]
+)
 
-with open(resume_path, "r", encoding="utf-8") as f:
-    resume_text = f.read()
+if uploaded_resume is not None:
+    resume_text = uploaded_resume.read().decode("utf-8")
+else:
+    resume_path = "data/resume/resume.txt"
+    with open(resume_path, "r", encoding="utf-8") as f:
+        resume_text = f.read()
 
 # ---------------------------------------------------
 # Prompt templates
