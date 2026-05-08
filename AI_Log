@@ -75,3 +75,27 @@ DATE:5-8-2026
 TOOL: Chatgpt
 Question asked:How can I allow users to upload their own resumes in the Streamlit app?
 Modifications: I added a Streamlit file uploader supporting .txt resumes and updated the app logic to read uploaded resumes dynamically. I made sure to use the default resume file if no upload was provided.
+
+
+Entry 9: 
+DATE:5-8-2026
+TOOL: Chatgpt
+Question asked:Currently users can upload a text file of their resumes but I actually think it would be better for them to be able to just copy and paste for a smoother process.
+Modifications: I included the code below for loading resumes. It worked well in my Streamlit app and made the UI much more user friendly.
+-------------------------------------------------------------------------------------------------------------------
+st.subheader("Paste Resume")
+
+resume_input = st.text_area(
+    "Paste your resume here:",
+    height=300
+)
+
+if resume_input.strip():
+    resume_text = resume_input
+else:
+    resume_path = "data/resume/resume.txt"
+
+    with open(resume_path, "r", encoding="utf-8") as f:
+        resume_text = f.read()
+
+-------------------------------------------------------------------------------------------------------------------
