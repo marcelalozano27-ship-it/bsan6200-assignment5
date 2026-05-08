@@ -4,7 +4,7 @@
 
 This project was completed for **BSAN 6200: Text Mining & Social Media Analytics** as **Assignment 5, Option B: Job Fit Analyzer**.
 
-The goal of this project is to build a job fit analysis system that compares a candidate resume against multiple job descriptions. The system uses text loading, chunking, embeddings, vector search, and prompt-based analysis to generate role-specific feedback. The final project includes both a Colab notebook and a deployed Streamlit app.
+The primary goal of this project is to build a job fit analysis system that compares a candidate resume against multiple job descriptions. The system uses text loading, chunking, embeddings, vector search, and prompt-based analysis to generate role-specific feedback. The final project includes both a Colab notebook and a deployed Streamlit app.
 
 ## Live Streamlit App
 
@@ -36,7 +36,7 @@ bsan6200-assignment5/
 
 ## 1. Setup and Imports
 
-The first section installs and imports the packages needed for the job fit analysis pipeline. The project uses Python libraries for data handling, document processing, embeddings, vector storage, and application deployment.
+The first section installs and imports the necessary packages for the job fit analysis pipeline. The project uses Python libraries for data handling, document processing, embeddings, vector storage, and application deployment.
 
 Key tools used include:
 
@@ -46,7 +46,6 @@ Key tools used include:
 - `sentence-transformers`
 - `chromadb`
 - `python-dotenv`
-- `langchain_core.documents`
 - `streamlit`
 
 This section also loads environment variables so that API keys are not hardcoded directly into the notebook.
@@ -174,7 +173,8 @@ The main weakness was that some outputs occasionally inferred experience from re
 
 ## 8. Streamlit App
 
-The Streamlit app was created as a separate file named `streamlit_app.py`. It provides an interactive version of the job fit analyzer so users can view job fit results outside of the notebook.
+The Streamlit app was created as a separate file named `streamlit_app.py`. It provides an interactive version of the job fit analyzer by allowing users to select a job description, choose an analysis type, and generate a fit summary, keyword alignment, or skill gap analysis.
+
 
 Live app:
 
