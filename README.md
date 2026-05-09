@@ -28,8 +28,7 @@ bsan6200-assignment5/
 ├── evaluation/
 │   ├── test_results.md
 │
-├── AI_Log/
-│
+├── AI_Log
 ├── streamlit_app.py
 ├── .gitignore
 ├── requirements.txt
