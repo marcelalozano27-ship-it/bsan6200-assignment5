@@ -25,11 +25,15 @@ bsan6200-assignment5/
 │   ├── resume/
 │   └── jd_metadata.csv
 │
+├── evaluation/
+│   ├── test_results.md
+│
 ├── AI_Log/
 │
 ├── streamlit_app.py
 ├── .gitignore
 ├── requirements.txt
+├── memo.md
 └── README.md
 ```
 
@@ -174,8 +178,17 @@ The main weakness was that some outputs occasionally inferred experience from re
 
 ## 8. Streamlit App
 
-The Streamlit app was created as a separate file named `streamlit_app.py`. It provides an interactive version of the job fit analyzer by allowing users to select a job description, choose an analysis type, and generate a fit summary, keyword alignment, or skill gap analysis.
+An interactive Streamlit app was developed to make the RAG-based job fit analyzer easier to use. The app allows users to either use a pre-saved resume and job description or upload their own resume and paste a custom job description for analysis.
 
+The app supports three analysis types:
+
+1. **Fit Summary**: Provides an overall assessment of how well the resume aligns with the selected job description.
+2. **Keyword Alignment**: Identifies matched and missing keywords between the resume and job description.
+3. **Skill Gap Analysis**: Highlights missing or underdeveloped skills and provides recommendations for improving the application.
+
+The app also includes sidebar instructions that explain how the uploaded resume should be formatted. These instructions help users structure their resume text clearly so the system can better identify experience, skills, education, and projects during the analysis.
+
+The app is implemented in `streamlit_app.py` and deployed using Streamlit Cloud.
 
 Live app:
 
