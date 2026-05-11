@@ -25,7 +25,7 @@ Modifications:I learned that I can switch show_progress_bar=False to remove the 
 import logging
 logging.getLogger("sentence_transformers").setLevel(logging.ERROR)
 logging.getLogger("transformers").setLevel(logging.ERROR)
-There was still one loading bar that I could not get rid of so I just cleared the output of that cell before putting into Github.
+There was still one loading bar that I could not get rid of so I just cleared the output of that cell before putting into Github. This is a case of "beating the AI recommendation" since even after implementing the changes suggested the output was not as expected.
 
 Entry 4:
 DATE:5-6-2026
@@ -99,3 +99,14 @@ else:
         resume_text = f.read()
 
 -------------------------------------------------------------------------------------------------------------------
+Entry 10: 
+DATE:5-9-2026
+TOOL: Chatgpt
+Question asked:How can I securely manage OpenAI API credentials for local deployment and Streamlit Cloud deployment?
+Modifications: I emplemented a .env environment variable loading using python-dotenv and updated the .gitignore to exclude API keys and local configuration from GitHub uploads. I also added instructions to the README for local environment setup and API configuration (link to create your own API key).
+
+Entry 11: 
+DATE:5-9-2026
+TOOL: Chatgpt 
+Question asked: How can I structure application error handling inside Streamlit for OpenAI API calls?
+Modifications: Wrapped analysis execution inside try/except blocks to catch API authentication errors, missing environment variables, and runtime exceptions. I added Streamlit error messaging to improve debugging visibility and user feedback during failed requests. 
