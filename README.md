@@ -210,13 +210,23 @@ cd bsan6200-assignment5
 pip install -r requirements.txt
 ```
 
-### 3. Run the Streamlit app
+### 3. Create a `.env` file
+
+Create a file named `.env` in the root project folder and add your OpenAI API key:
+
+```text
+OPENAI_API_KEY=your_api_key_here
+```
+You can generate an API key from:
+https://platform.openai.com/api-keys
+
+### 4. Run the Streamlit app
 
 ```bash
 streamlit run streamlit_app.py
 ```
 
-### 4. Open the notebook
+### 5. Open the notebook
 
 The main notebook is located at:
 
